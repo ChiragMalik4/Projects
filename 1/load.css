@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url(Pankh.png) no-repeat center center/contain;
+    position: absolute;
+    width: calc(100vw);
+    height: calc(100vh);
+    z-index: -1;
+    filter: blur(40px);
+}
+
+.load_text{
+    font-size: 40px;
+    color: black;
+}
