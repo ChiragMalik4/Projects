@@ -114,21 +114,3 @@ button:focus{
     
 }
 
-.loading{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    height: 100vh;
-    width: 100vw;
-
-}
-
-.loading-text{
-    position: absolute;
-    font-size: 40px;
-    color: black;
-    top: 45%;
-    
-}
