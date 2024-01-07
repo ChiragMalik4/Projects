@@ -5,8 +5,6 @@ const upbutton = document.querySelector('.up-button')
 const downbutton = document.querySelector('.down-button')
 const slidelength = rightslide.querySelectorAll('div').length
 const pankh = document.querySelector('.pankh')
-const loadtext = document.querySelector('.loading-text')
-const blurscreen = document.querySelector('.slider-container')
 
 
 let currentslideindex = 0
@@ -36,19 +34,3 @@ upbutton.addEventListener('click', ()=>changeslide('up'))
 downbutton.addEventListener('click', ()=>changeslide('down'))
 
 
-
-//loading text at the starting
-let load = 0
-
-let caller = setInterval(increment, 30)
-
-function increment(){
-    load++
-
-    if(load>99){
-        clearInterval(caller)
-    }
-    loadtext.innerText = `${load}%`
-    const revblur = 30 - (load*0.3)
-    blurscreen.style.filter = `blur(${revblur}px)`
-}
