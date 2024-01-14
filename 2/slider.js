@@ -34,4 +34,3 @@ upbutton.addEventListener('click', ()=>changeslide('up'))
 downbutton.addEventListener('click', ()=>changeslide('down'))
 
 
-
