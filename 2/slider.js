@@ -5,25 +5,6 @@ const upbutton = document.querySelector('.up-button')
 const downbutton = document.querySelector('.down-button')
 const slidelength = rightslide.querySelectorAll('div').length
 const pankh = document.querySelector('.pankh')
-const loadtext = document.querySelector('.loading-text')
-const blurscreen = document.querySelector('.slider-container')
-
-
-//loading text at the starting
-let load = 0
-
-let caller = setInterval(increment, 30)
-
-function increment(){
-    load++
-
-    if(load>99){
-        clearInterval(caller)
-    }
-    loadtext.innerText = `${load}%`
-    const revblur = 40 - (load*0.4)
-    blurscreen.style.filter = `blur(${revblur}px)`
-}
 
 
 let currentslideindex = 0

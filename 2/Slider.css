@@ -101,16 +101,15 @@ button:focus{
 .pankh{
     background-image: url(Pankh.png);
     background-size: contain;
-    left: 29.5%;
-    top: 42.5%;
-    height: 8%;
-    width: 8%;
+    left: 18%;
+    top: 32.5%;
+    height: 33.5%;
+    width: 33.5%;
     z-index: 3;
-    position: relative;
-    background-position: center;
+    position: absolute;
     background-repeat: no-repeat;
+    background-position: center;
     transform-origin: center center;
     transition: transform 0.5s ease-in-out;
     
 }
-

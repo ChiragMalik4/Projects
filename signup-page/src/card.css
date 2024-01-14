@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+
+
+body{
+    overflow: hidden;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bgvideo{
+    position: absolute;
+    object-fit: cover;
+    top: -20%;
+    left: -8%;
+    z-index: -1;
+
+}
+
+.card{
+    display: flex;
+    width: 600px;
+    
+
+}
+
+.left-card, .right-card{
+    flex: 1;
+    aspect-ratio: 9/16;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+
+
+.left-card{
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 2%;
+    animation: float 2s infinite alternate;
+    animation: aniopacity 4s;
+
+}
+
+.balls-blue{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+}
+
+.balls-purple{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+
+}
+
+
+.flip{
+    transform-style: preserve-3d;
+    transition: transform 0.4s;
+    transform-origin: center;
+}
+
+.right-card{
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 2%;
+    animation: float 2s infinite alternate-reverse;
+    width: 100%;
+    backface-visibility: hidden;
+    
+}
+
+
+
+
+.right-card div{
+    display: flex;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.right-card h1{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    
+}
+
+.right-card small{
+    margin-left: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.formcontainer{
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.right-card input{
+    padding: 5px;
+    border-style: none;
+    border-radius: 2%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    outline: none;
+}
+
+.right-card button{
+    margin-left: 34%;
+    padding: 2px;
+    width: 29%;
+    font-size: medium;
+    background-color: rgb(0, 102, 254, 0.4);
+    border-style: none;
+    outline: none;
+}
+
+
+@keyframes float{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(8px);
+    }
+
+}
+
+
+@keyframes aniopacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+@keyframes opacityrev{
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0;
+    }
+    
+}
+
