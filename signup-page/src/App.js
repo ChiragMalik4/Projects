@@ -4,7 +4,7 @@ import AnimateRoute from "./animated-routes";
 
 const App =()=>{
     return(
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <AnimateRoute/>
         </Router>
        
