@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "pixel";
+    src: url('/pixeboy-font/Pixeboy-z8XGD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    overflow: hidden;
+}
+
+.welcome-bg{
+    background-image: url('Toothless_drawing2.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome-content{
+    font-size: 150px;
+    font-weight: bold;
+    opacity: 50%;
+    font-family: 'pixel';
+}
+
+
+#signup{
+    margin-right: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 13px;
+    font-family: 'pixel';
+    font-size: large;
+    transition: transform 0.4s ease;
+    transition: margin 0.4s ease;
+}
+
+#login{
+    margin-left: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 13px;
+    font-family: 'pixel';
+    font-size: large;
+    transition: transform 0.4s ease;
+    transition: margin 0.4s ease;
+    
+}
+
+#signup:hover{
+    background-color: gray;
+    cursor: pointer;
+    transform: rotate(4deg);
+    margin: 10px;
+}
+
+#login:hover{
+    background-color: gray;
+    cursor: pointer;
+    transform: rotate(-4deg);
+    margin: 10px;
+}
+

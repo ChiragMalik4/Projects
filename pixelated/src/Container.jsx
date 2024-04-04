@@ -25,7 +25,7 @@ export const Container = () => {
         
         
       </Sidebar>
-      <audio controls autoPlay>
+      <audio autoPlay>
           <source src='Sparkle.mp3' type='audio/mp3'/>
           Your browser doesn't support the audio element.
       </audio>
