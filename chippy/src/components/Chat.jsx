@@ -17,7 +17,7 @@ export const Chat = ({friendId, isFolded}) => {
 
     const FetchMessages = async ()=>{
         try{
-            const chaturl = 'https://chiragmalik4.github.io/Projects/server/chat.php';
+            const chaturl = 'https://chiragmalik4.github.io/Projects/chippy/server/chat.php';
             const formdata = new FormData();
             formdata.append('userId', userId);
             formdata.append('friendId', friendId);
@@ -37,7 +37,7 @@ export const Chat = ({friendId, isFolded}) => {
     }
     
     const sendMessage = ()=>{
-        const chaturl = 'https://chiragmalik4.github.io/Projects/server/chat.php';
+        const chaturl = 'https://chiragmalik4.github.io/Projects/chippy/server/chat.php';
         const formdata = new FormData();
         formdata.append('userId', userId);
         formdata.append('friendId', friendId);
