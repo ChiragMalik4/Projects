@@ -16,7 +16,7 @@ export const Inbox =({isFolded})=>{
     
 
     const FetchFriendRequests = async ()=>{
-        const url = 'http://localhost/server/inbox.php';
+        const url = 'https://chiragmalik4.github.io/Projects/server/inbox.php';
         const formdata = new FormData();
         formdata.append('userId', userId);
         await axios.post(url, formdata).then(response=>{
@@ -27,7 +27,7 @@ export const Inbox =({isFolded})=>{
     }
     
     const AcceptFriendsReq = (friendId)=>{
-        const acceptrequrl = 'http://localhost/server/friendreq.php';
+        const acceptrequrl = 'https://chiragmalik4.github.io/Projects/friendreq.php';
         const formdata = new FormData();
         formdata.append('userId', userId);
         formdata.append('friendId', friendId);
@@ -47,7 +47,7 @@ export const Inbox =({isFolded})=>{
     }
 
     const RejectFriendsReq = (friendId)=>{
-        const rejectrequrl = 'http://localhost/server/friendreq.php';
+        const rejectrequrl = 'https://chiragmalik4.github.io/Projects/friendreq.php';
         const formdata = new FormData();
         formdata.append('userId', userId);
         formdata.append('friendId', friendId);

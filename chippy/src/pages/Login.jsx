@@ -22,7 +22,7 @@ export const Login = ()=>{
             return;
         }
 
-        const url = 'http://localhost/server/login.php';
+        const url = 'https://chiragmalik4.github.io/Projects/server/login.php';
         const formData = new FormData();
         formData.append('Email', Email);
         formData.append('Password', Password);

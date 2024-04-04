@@ -18,7 +18,7 @@ export const FriendReq = ()=>{
     };
 
     const SendFriendReq = (user_id)=>{
-        const url = 'http://localhost/server/friends.php';
+        const url = 'https://chiragmalik4.github.io/Projects/friends.php';
         const formData = new FormData();
         formData.append('friend_id', friendID);
         formData.append('sender_id', user_id);
