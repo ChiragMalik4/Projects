@@ -1,31 +1,11 @@
 <?php
     header('Access-Control-Allow-Origin: *');
-    header('Access-Control-Allow-Origin: https://chiragmalik4.github.io/Projects/chippy/dist');
-    header('Access-Control-Allow-Methods: POST');
+    include('database.php);
 
 
 
 ?>
-<?php
 
-    $db_server = 'localhost';
-    $db_user = 'root';
-    $db_pass = "";
-    $db_name = "Authentication";
-    $conn = null;
-
-    try{$conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
-
-    }
-    catch(mysqli_sql_exception){
-        echo"Could not connect";
-    }
-
-
-    global $conn;
-
-
-?>
 
 <?php
 
