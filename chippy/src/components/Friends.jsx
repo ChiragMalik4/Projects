@@ -24,7 +24,7 @@ export const Friends = ({isFolded})=>{
 
 
     const FetchFriends = async ()=> {
-        const Friendurl = 'https://chiragmalik4.github.io/Projects/chippy/server/friendlist.php';
+        const Friendurl = 'http://localhost/server/friendlist.php';
         const formdata = new FormData();
         formdata.append('userId', userId);
 

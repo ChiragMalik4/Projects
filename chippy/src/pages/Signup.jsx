@@ -24,7 +24,7 @@ export const Signup = ()=>{
             return;
         }
 
-        const url = 'https://chiragmalik4.github.io/Projects/chippy/server/signup.php';
+        const url = 'http://localhost/server/signup.php';
         const formData = new FormData();
         formData.append('Name', Name);
         formData.append('Email', Email);
