@@ -54,23 +54,44 @@
     z-index: 11;
     border: none;
     background-color: transparent;
-    display: flex;
     padding: 11px;
-    color: white;
     font-family: 'pixel';
     position: absolute;
-    
+    border: 2px solid;
+    border-radius: 13px;
+    border-color: coral;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 13px;
+    margin-top: 13px;
+    transition: transform 0.4s ease;
 
 }
 
 .Logout{
     z-index: 11;
     position: absolute;
-    margin: 40px;
+    margin-top: 65px;
+    margin-left: 13px;
+    padding: 8px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: coral;
+    border-radius: 13px;
+    font-family: 'pixel';
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease;
+
+}
+
+.Logout:hover{
+    cursor: pointer;
+    background-color: coral;
+    transform: translateX(-8px);
 }
 
 .theme-button:hover{
     filter: drop-shadow(0 0 10px rgba(0, 145, 255, 0.8));
     cursor: pointer;
+    transform: translateX(-8px);
 }
 

@@ -125,6 +125,7 @@
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     z-index: 1;
     position: relative;
+    transition: transform 0.4s ease;
 }
 
 .list li img{
@@ -145,9 +146,15 @@
 .fold-button{
     border: none;
     background-color: transparent;
-    
     position: relative;
     z-index: 1;
+    border: 2px solid;
+    border-radius: 13px;
+    border-color: coral;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 13px;
+    transition: transform 0.4s ease;
+
     
 
 }
@@ -158,8 +165,9 @@
 }
 
 .fold-button:hover{
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 0 10px coral);
     cursor: pointer;
+    transform: translateX(-8px);
 }
 
 

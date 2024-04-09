@@ -41,13 +41,18 @@ export const Chippy = () => {
   
         <Sidebar>
           
-          <button className='theme-button' onClick={Themeapply}>
-            Click Me!
-          </button>
-
-          <button className='Logout' onClick={handlelogout}>
-            LogOut
-          </button>
+          <div>
+            <button className='theme-button' onClick={Themeapply}>
+              {theme}
+            </button>
+          </div>
+          
+          <div>
+            <button className='Logout' onClick={handlelogout}>
+              LogOut
+            </button>
+          </div>
+          
           
           
         </Sidebar>
