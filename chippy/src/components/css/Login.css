@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "pixel";
+    src: url('/pixeboy-font/Pixeboy-z8XGD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 *{
     margin: 0;
     overflow: hidden;
@@ -6,7 +14,7 @@
 
 
 .login-bg{
-    background-image: url('Z2.jpg');
+    background-image: url('Baby-Toothless.gif');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -28,10 +36,11 @@
     align-items: center;
     width: 500px;
     height: 500px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+    background-color: gray;
+    opacity: 50%;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+    font-family: 'pixel';
 
 
 }
@@ -42,7 +51,7 @@
 }
 
 .login-form label{
-    font-size: large;
+    font-size: 26px;
     color: white;
     font-weight: bold;
     text-shadow: 0 0 4px black;
@@ -61,7 +70,7 @@
     font-size: medium;
     color: white;
     text-shadow: 0 0 5px black;
-    
+    font-family: 'pixel';    
 
     
 }
@@ -77,12 +86,15 @@
     padding: 13px;
     width: 40%;
     background-color: transparent;
+    font-family: 'pixel';
+    transition: transform 0.4s ease;
 
     
 }
 
 .login-form .login-button:hover{
     background-color: aliceblue;
+    transform: rotate(4deg);
     cursor: pointer;
 }
 
