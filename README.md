@@ -11,11 +11,20 @@
 
 
 
-#The Chat website is a pixelated theme website.
-I focused more on the backend side (done in php), which is why the frontend may look a bit poorly managed aas it was not my main goal in it, but the appearance it intentional to make it look quirky.
-features:
-  1.) Registration and Login feature with User Authentication.
-  2.) Browser token based system to keep the user logged in unless he decides to log out.
-  3.) You can send friend requests to people by typing their user-Id in the search box.
-  4.) accept or reject the friend request received.
-  5.) Real-time Chat feature with user.
+# Chat Website - Pixelated Theme
+
+The Chat Website features a pixelated theme with the main focus on backend development using PHP. The frontend design having a quirky appearance is intentional and diverging from a professional feel because it was a personal project for learning.
+
+### Features:
+
+1. **Registration and Login:** Provides user authentication for secure access to the chat platform.
+   
+2. **Browser Token System:** Implements a token-based system to keep users logged in until they choose to log out, enhancing user convenience.
+   
+3. **Friend Requests:** Users can send friend requests by typing the recipient's user ID in the search box. 
+
+4. **Friend Management:** Allows users to accept or reject friend requests received from others.
+   
+5. **Real-time Chat:** Enables real-time communication between users, enhancing the interactive experience.
+
+
